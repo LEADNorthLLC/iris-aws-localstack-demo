@@ -40,9 +40,12 @@ Run the following commands within the iris terminal to interact with the bucket 
 
 **Create bucket** 
 Do ##class(DQS.CloudUtils.S3.S3UUtil).CreateBucket("yourBucket")
+
 **Get bucket** 
 Do ##class(S3.S3UUtil).GetBucket("yourBucket", "yourObjectKey")
+
 **Put objects in bucket**
 Do ##class(S3.S3UUtil).PutObject("yourBucket", "yourObjectKey")
+
 **Pull objects from bucket** 
 Do ##class(DQS.CloudUtils.S3.S3UUtil).PullObjectFromBucket("yourBucket", "yourObjectKey")
