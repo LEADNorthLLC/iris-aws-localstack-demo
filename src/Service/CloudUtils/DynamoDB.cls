@@ -1,6 +1,6 @@
 Include (XF.Base.Helper, Ensemble)
 
-Class DS.CloudUtils.DynamoDB Extends %RegisteredObject
+Class Service.CloudUtils.DynamoDB Extends %RegisteredObject
 {
 
 ClassMethod init()

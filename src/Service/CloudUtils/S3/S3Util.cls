@@ -1,4 +1,4 @@
-Class DS.CloudUtils.S3.S3Util Extends %RegisteredObject
+Class Service.CloudUtils.S3.S3Util Extends %RegisteredObject
 {
     ClassMethod CreateBucket(inboundfromiris As %String) As %Status 
     {

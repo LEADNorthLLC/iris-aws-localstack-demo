@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="fhir-visualizer.ZPM">
+  <Document name="iris-localstack-service.ZPM">
     <Module>
-      <Name>fhir-visualizer</Name>
+      <Name>iris-localstack-service</Name>
       <Version>1.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="FHIR.PKG"/>
-      <Resource Name="DS.PKG"/>
-      <Resource Name="DataService.PKG"/>
-
-    <Invoke Class="Ens.Director" Method="SetAutoStart">
-         <Arg>VISUALIZERPKG.FoundationProduction</Arg>
-    </Invoke>
-    <Invoke Class="Ens.Director" Method="SetAutoStart">
-      <Arg>DataService.DS.Prod.DataQuality</Arg>
-    </Invoke>
+      <Resource Name="Service.PKG"/>
+      <Resource Name="XF.PKG"/>
     </Module>
     
   </Document>
